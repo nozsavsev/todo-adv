@@ -1,4 +1,4 @@
-import { SearchFilter } from "@/pages"
+import { SearchFilter } from "@/pages" //@ тут это черная магия webpack, чтобы не писать длинный путь к файлу IDE подскажет
 
 export default function AdvancedSearchOptions({ filter, setFilter }: { filter: SearchFilter, setFilter: (filter: SearchFilter) => void }) {
 
